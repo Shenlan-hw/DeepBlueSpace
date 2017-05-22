@@ -1,6 +1,6 @@
-﻿#include "test4.h"
+﻿#include "tesk4.h"
 
-void test402()
+void tesk402()
 {
 	printf("输入一个正整数：");
 	int n;
@@ -20,7 +20,7 @@ void test402()
 	printf("总和=%d,7的倍数的奇数平均值=%.2f\n", sum, 1.0*jsh / jsgs);
 }
 
-void test404()
+void tesk404()
 {
 	printf("请输入第一个学生的成绩：");
 	double score;
@@ -40,7 +40,7 @@ void test404()
 	else printf("教学效果：一般\n");
 }
 
-void test406()
+void tesk406()
 {
 	printf("请输入一个正整数：");
 	int m;
@@ -56,7 +56,7 @@ void test406()
 	printf("整数%d最高位的全是%d，各数位上偶数数字和是%d\n", m, wq / 10, sum);
 }
 
-void test408()
+void tesk408()
 {
 	printf("输入一个正实数 eps :");
 	double eps;
@@ -75,7 +75,7 @@ void test408()
 	printf("S的近似值等于%.4f\n", s);
 }
 
-void test410()
+void tesk410()
 {
 	printf("输入两个正整数a和n（1位数）：");
 	int a, n;
@@ -95,7 +95,7 @@ void test410()
 	printf("a+aa+aaa+...+a(n个a)=%.0f\n", sum);
 }
 
-void test411()
+void tesk411()
 {
 	printf("输入一个正整数：");
 	long x;
@@ -120,7 +120,7 @@ void test411()
 	printf("\n");
 }
 
-void test412()
+void tesk412()
 {
 	int x1=1,x2;
 	for (int i = 1; i <10; i++)
@@ -131,7 +131,7 @@ void test412()
 	printf("猴子第一天共摘了%d个桃子\n",x1);
 }
 
-void test413()
+void tesk413()
 {
 	printf("1-10000间左右的水仙花数：");
 	int lfh,m,digit,count=0;

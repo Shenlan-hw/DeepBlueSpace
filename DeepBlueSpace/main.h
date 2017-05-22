@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <iostream>
-#include "test1.h"
-#include "test2.h"
-#include "test3.h"
-#include "test4.h"
-#include "test5.h"
-#include "test6.h"
+#include "tesk1.h"
+#include "tesk2.h"
+#include "tesk3.h"
+#include "tesk4.h"
+#include "tesk5.h"
+#include "tesk6.h"
 
 void main();
 
-void test1();
+void tesk1();
 
-void test2();
+void tesk2();
 
-void test3();
+void tesk3();
 
-void test4();
+void tesk4();
 
-void test5();
+void tesk5();
 
-void test6();
+void tesk6();

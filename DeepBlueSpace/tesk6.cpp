@@ -1,6 +1,6 @@
-#include"test6.h"
+#include"tesk6.h"
 #include"function.h"
-void test602()
+void tesk602()
 {
 	int i = 0, n = 0, count = 0, sum = 0;
 	double aver = 0;
@@ -47,7 +47,7 @@ void test602()
 	printf("身高超过平均身高%.0fcm或超过170cm的学生的人数是%d人\n", aver, count);
 }
 
-void test604()
+void tesk604()
 {
 	int i = 1, index1 = 1, index2 = 1;
 	int a[100];
@@ -64,7 +64,7 @@ void test604()
 	printf("a[%d]是最小值%d\n", index2, a[index2]);
 }
 
-void test606()
+void tesk606()
 {
 	int b[16], t, m, n, k, r;
 	printf("请输入一个十进制整数：");
@@ -93,7 +93,7 @@ void test606()
 	putchar('\n');
 }
 
-void test608()
+void tesk608()
 {
 	int i, j, x, n, a[10];
 	printf("输入数据的个数（0<n<9）：");
@@ -120,7 +120,7 @@ void test608()
 	putchar('\n');
 }
 
-void test609()
+void tesk609()
 {
 	printf("请输入一个正整数n(1<n<=10)：");
 	int n;
@@ -147,7 +147,7 @@ void test609()
 	putchar('\n');
 }
 
-void test610()
+void tesk610()
 {
 	printf("输入数据的个数（0<n<9）：");
 	int n;
@@ -184,7 +184,7 @@ void test610()
 	putchar('\n');
 }
 
-void test612()
+void tesk612()
 {
 	printf("输入一个正整数n(1≤n≤6)：");
 	int n;
@@ -208,7 +208,7 @@ void test612()
 	printf("方阵主对角线元素和=%d\n方阵副对角线元素=%d\n方阵非对角线元素和=%d\n", diagonal_main, diagonal_vice, diagonal_Non);
 }
 
-void test615()
+void tesk615()
 {
 	printf("请输入一个正整数n(1≤n＜10)：");
 	int n;
@@ -245,7 +245,7 @@ void test615()
 	putchar('/n');
 }
 
-void test616()
+void tesk616()
 {
 	printf("请输入一个正整数n(1≤n≤6)：");
 	int n;
@@ -276,7 +276,7 @@ void test616()
 	putchar('\n');
 }
 
-void test618()
+void tesk618()
 {
 	int flag = 0, sub = 0, i = 0;
 	char cc, ch, str[MAXLEN];
@@ -306,7 +306,7 @@ void test618()
 	if (!flag) printf("Not Found\n");
 }
 
-void test620()
+void tesk620()
 {
 	int i = 0, k = 0;
 	long number = 0;
@@ -343,7 +343,7 @@ void test620()
 }
 
 
-void test621()
+void tesk621()
 {
 	printf("连续输入一批以回车结束的字符串（少于80个字符）:");
 	char ch, str[MAXLEN];
@@ -365,7 +365,7 @@ void test621()
 	putchar('\n');
 }
 
-void test622()
+void tesk622()
 {
 	printf("连续输入一批以回车结束的字符串（少于80个字符）:");
 	char ch, str[MAXLEN];

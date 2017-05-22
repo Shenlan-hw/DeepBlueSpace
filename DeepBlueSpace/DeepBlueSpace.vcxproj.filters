@@ -21,22 +21,22 @@
     <ClInclude Include="main.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="test1.h">
+    <ClInclude Include="tesk1.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="test2.h">
+    <ClInclude Include="tesk2.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="test3.h">
+    <ClInclude Include="tesk3.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="test4.h">
+    <ClInclude Include="tesk4.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="test5.h">
+    <ClInclude Include="tesk5.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="test6.h">
+    <ClInclude Include="tesk6.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -44,25 +44,25 @@
     <ClCompile Include="function.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="test1.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="test2.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="test3.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="test4.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="test5.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="test6.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tesk1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tesk2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tesk3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tesk4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tesk5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tesk6.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

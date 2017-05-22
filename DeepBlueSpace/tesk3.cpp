@@ -1,6 +1,6 @@
-﻿#include "test3.h"
+﻿#include "tesk3.h"
 
-void test302()
+void tesk302()
 {
 	double x, y;
 	printf("输入工资x(x>=0):");
@@ -18,7 +18,7 @@ void test302()
 	printf("工资x=%.2f,所得税u=%.2f\n", x, y);
 }
 
-void test304()
+void tesk304()
 {
 	double a, b, c, s, area;
 	printf("请输入三边：");
@@ -48,7 +48,7 @@ void test304()
 	return;
 }
 
-void test306()
+void tesk306()
 {
 	//A-[90,100]、B-[80,89]、C-[70,79]、D-[60,69]、E-[0,59]。
 	printf("请输入一个百分制成绩：");
@@ -65,7 +65,7 @@ void test306()
 	}
 }
 
-void test307()
+void tesk307()
 {
 	printf("请输入学生总人数（正整数）：");
 	int n;

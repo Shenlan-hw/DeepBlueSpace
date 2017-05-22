@@ -1,6 +1,6 @@
-﻿#include "test2.h"
+﻿#include "tesk2.h"
 
-void test202()
+void tesk202()
 {
 	printf("输入存款金额money、存期year、年利率rate：");
 	int money, year;
@@ -11,7 +11,7 @@ void test202()
 	printf("本息和等于%.2f\n", sum);
 }
 
-void test204()
+void tesk204()
 {
 	double x, y;
 	printf("请输入一个数x：");
@@ -22,7 +22,7 @@ void test204()
 	printf("x=%.2f,y=%.2f\n", x, y);
 }
 
-void test206()
+void tesk206()
 {
 	printf("请输入一个正整数n:");
 	int n;
@@ -41,7 +41,7 @@ void test206()
 	printf("1-1/2+2/3-3/5-...的前%d项和等于%.2f\n", n, sum);
 }
 
-void test208()
+void tesk208()
 {
 	printf("输入一个正整数n和一个实数x:");
 	int x, n;
@@ -56,7 +56,7 @@ void test208()
 	printf("x1+x2+x3+...+xn=%.2f\n", sum);
 }
 
-void test209()
+void tesk209()
 {
 	printf("请输入一个正整数：");
 	int n;

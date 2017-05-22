@@ -1,6 +1,6 @@
-﻿#include "test1.h"
+﻿#include "tesk1.h"
 
-void test102()
+void tesk102()
 { 
 	printf("    *\n");
 	printf("  * * *\n");
@@ -10,7 +10,7 @@ void test102()
 	
 }
 
-void test104()
+void tesk104()
 {
 	int count=0;
 	for (int i = 1; i <= 100; i++)
@@ -19,7 +19,7 @@ void test104()
 	printf("count=%d\n", count);
 }
 
-void test105()
+void tesk105()
 {
 	int sum=0,count=0,ave=0;
 	for (int i = 1; i <= 100; i++)

@@ -1,6 +1,6 @@
-﻿#include "test5.h"
+﻿#include "tesk5.h"
 
-void test502()
+void tesk502()
 {
 	int i = 1, n, flag = 1;
 	double x, item = 0, sum = 0;
@@ -15,7 +15,7 @@ void test502()
 	printf("cos(x)的近似值=%0.4f\n", sum);
 }
 
-void test504()
+void tesk504()
 {
 	int m, n;
 	int gbs(int m, int n);
@@ -24,7 +24,7 @@ void test504()
 	printf("%d与%d的最小公倍数是:%d\n", m, n, gbs(m, n));
 }
 
-void test506()
+void tesk506()
 {
 	int i, m, n, flag = 0, count = 0, sum = 0;
 	int prime(int n);
@@ -42,7 +42,7 @@ void test506()
 	printf("%d到%d之间的素数个数=%d,素数和=%d\n", m, n, count, sum);
 }
 
-void test508()
+void tesk508()
 {
 	int i, m, n, count = 0, sum = 0;
 	int is(int number);
@@ -60,7 +60,7 @@ void test508()
 	printf("%d到%d之间满足条件的数的个数为%d个，累加和等于%d.\n", m, n, count, sum);
 }
 
-void test509()
+void tesk509()
 {
 	int  m, n;
 	int fib(int n);
@@ -74,7 +74,7 @@ void test509()
 	putchar('\n');
 }
 
-void test510()
+void tesk510()
 {
 	int m, n;
 	int factorsum(int i);
@@ -88,7 +88,7 @@ void test510()
 	putchar('\n');
 }
 
-void test511()
+void tesk511()
 {
 	int n;
 	int dectobin(int n);
@@ -97,7 +97,7 @@ void test511()
 	printf("十进制数%d的二进制数是%d\n", n, dectobin(n));
 }
 
-void test513()
+void tesk513()
 {
 	double t;
 	int n;
@@ -109,7 +109,7 @@ void test513()
 	cout << " t = 1 * 3 * 5 * 7 * …* " << 2 * n - 1 << "的值等于" << t << endl;
 }
 
-void test514()
+void tesk514()
 {
 	int n;
 	double x;

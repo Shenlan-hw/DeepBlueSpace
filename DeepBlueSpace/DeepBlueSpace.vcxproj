@@ -113,22 +113,22 @@
   <ItemGroup>
     <ClInclude Include="function.h" />
     <ClInclude Include="main.h" />
-    <ClInclude Include="test1.h" />
-    <ClInclude Include="test2.h" />
-    <ClInclude Include="test3.h" />
-    <ClInclude Include="test4.h" />
-    <ClInclude Include="test5.h" />
-    <ClInclude Include="test6.h" />
+    <ClInclude Include="tesk1.h" />
+    <ClInclude Include="tesk2.h" />
+    <ClInclude Include="tesk3.h" />
+    <ClInclude Include="tesk4.h" />
+    <ClInclude Include="tesk5.h" />
+    <ClInclude Include="tesk6.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="function.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="test1.cpp" />
-    <ClCompile Include="test2.cpp" />
-    <ClCompile Include="test3.cpp" />
-    <ClCompile Include="test4.cpp" />
-    <ClCompile Include="test5.cpp" />
-    <ClCompile Include="test6.cpp" />
+    <ClCompile Include="tesk1.cpp" />
+    <ClCompile Include="tesk2.cpp" />
+    <ClCompile Include="tesk3.cpp" />
+    <ClCompile Include="tesk4.cpp" />
+    <ClCompile Include="tesk5.cpp" />
+    <ClCompile Include="tesk6.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
