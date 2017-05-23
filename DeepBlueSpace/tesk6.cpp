@@ -164,20 +164,17 @@ void tesk610()
 		if (z[i] == del) break;
 	for (; i < n; i++) z[i] = z[i + 1];
 	n--;
-	int judge, temp, k = 0;
-	do {
-		judge = 0;
+	for (int k = 0; k < n - 1; k++)
+	{
 		for (i = 1; i < n - k; i++)
 		{
 			if (z[i - 1] > z[i]) {
-				temp = z[i - 1];
+				int temp = z[i - 1];
 				z[i - 1] = z[i];
 				z[i] = temp;
-				judge = 1;
 			}
 		}
-		k++;
-	} while (judge == 1 && k < n);
+	}
 	printf("删除%d后的排序结果：", del);
 	for (i = 0; i < n; i++)
 		printf("%d ", z[i]);
