@@ -164,3 +164,31 @@ void delchar(char *list, char c)
 	q[k] = '\0';
 	strcpy_s(list, 80, q);
 }
+
+void strmcpy(char * s, char * t, int m)
+{
+	int i = 0;
+	while (s[m] != '\0')
+	{
+		t[i++] = s[m++];
+	}
+	t[i] = '\0';
+}
+
+void sortdown(char (*s)[80], int n)
+{
+	int i,j;
+	char temp[80];
+	for (i = 0; i < n - 1; i++)
+	{
+		for(j=0;j<n-i-1;j++)
+		{
+			if (strcmp(s[j], s[j + 1]) < 0)
+			{
+				strcpy_s(temp, 80, s[j]);
+				strcpy_s(s[j], 80, s[j+1]);
+				strcpy_s(s[j+1], 80, temp);
+			}
+		}
+	}
+}

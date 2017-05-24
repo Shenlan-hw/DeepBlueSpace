@@ -198,15 +198,14 @@ void tesk6()
 	cout << "=                                                            =" << endl;
 	cout << "=        6. 题目06            8. 题目08                  =" << endl;
 	cout << "=                                                            =" << endl;
-	cout << "=        9. 题目09           10. 题目10                  =" << endl;
+	cout << "=       10. 题目10           12. 题目12                  =" << endl;
 	cout << "=                                                            =" << endl;
-	cout << "=       12. 题目12           15. 题目15                  =" << endl;
+	cout << "=       15. 题目15           15. 题目16                  =" << endl;
 	cout << "=                                                            =" << endl;
-	cout << "=       16. 题目16           18. 题目18                  =" << endl;
+	cout << "=       18. 题目18           20. 题目20                  =" << endl;
 	cout << "=                                                            =" << endl;
-	cout << "=       20. 题目20           21. 题目21                  =" << endl;
+	cout << "=       21. 题目21           22. 题目22                  =" << endl;
 	cout << "=                                                            =" << endl;
-	cout << "=       22. 题目22                                         =" << endl;
 	cout << "=                                                            =" << endl;
 	cout << "==============================================================" << endl;
 	cout << "输入编号进入指定的程序（0 回主菜单）：";
@@ -233,7 +232,7 @@ void tesk6()
 void tesk8()
 {
 	cout << "==============================================================" << endl;
-	cout << "=                        上机作业 8                     =" << endl;
+	cout << "=                        上机作业 8                      =" << endl;
 	cout << "==============================================================" << endl;
 	cout << "=                                                            =" << endl;
 	cout << "=                                                            =" << endl;
@@ -243,13 +242,8 @@ void tesk8()
 	cout << "=                                                            =" << endl;
 	cout << "=        9. 题目09           10. 题目10                  =" << endl;
 	cout << "=                                                            =" << endl;
-	cout << "=       12. 题目12           15. 题目15                  =" << endl;
+	cout << "=       12. 题目12           13. 题目13                  =" << endl;
 	cout << "=                                                            =" << endl;
-	cout << "=       16. 题目16           18. 题目18                  =" << endl;
-	cout << "=                                                            =" << endl;
-	cout << "=       20. 题目20           21. 题目21                  =" << endl;
-	cout << "=                                                            =" << endl;
-	cout << "=       22. 题目22                                         =" << endl;
 	cout << "=                                                            =" << endl;
 	cout << "==============================================================" << endl;
 	cout << "输入编号进入指定的程序（0 回主菜单）：";
@@ -261,14 +255,10 @@ void tesk8()
 	case 4:system("cls"), tesk804(), tesk8(); break;
 	case 6:system("cls"), tesk806(), tesk8(); break;
 	case 8:system("cls"), tesk808(), tesk8(); break;
-	//case 10:system("cls"), tesk810(), tesk8(); break;
-	//case 12:system("cls"), tesk812(), tesk8(); break;
-	//case 15:system("cls"), tesk815(), tesk8(); break;
-	//case 16:system("cls"), tesk816(), tesk8(); break;
-	//case 18:system("cls"), tesk818(), tesk8(); break;
-	//case 20:system("cls"), tesk820(), tesk8(); break;
-	//case 21:system("cls"), tesk821(), tesk8(); break;
-	//case 22:system("cls"), tesk622(), tesk6(); break;
+	case 9:system("cls"), tesk809(), tesk8(); break;
+	case 10:system("cls"), tesk810(), tesk8(); break;
+	case 12:system("cls"), tesk812(), tesk8(); break;
+	case 13:system("cls"), tesk813(), tesk8(); break;
 	default:system("cls"), cout << "输入有误，请重新输入！" << endl, tesk6(); break;
 	}
 	system("cls");
