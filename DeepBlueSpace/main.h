@@ -6,6 +6,7 @@
 #include "tesk4.h"
 #include "tesk5.h"
 #include "tesk6.h"
+#include "tesk8.h"
 
 void main();
 
@@ -20,3 +21,5 @@ void tesk4();
 void tesk5();
 
 void tesk6();
+
+void tesk8();

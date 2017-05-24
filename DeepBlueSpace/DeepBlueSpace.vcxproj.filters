@@ -39,6 +39,9 @@
     <ClInclude Include="tesk6.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="tesk8.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="function.cpp">
@@ -63,6 +66,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="tesk6.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tesk8.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

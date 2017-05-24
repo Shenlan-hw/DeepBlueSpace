@@ -1,5 +1,4 @@
 ﻿#include "function.h"
-#include <stdio.h>
 
 double fact(int n)
 {
@@ -83,7 +82,7 @@ int is(int number)
 	else return 0;
 }
 
-int fib(int n)
+int fibonacci(int n)
 {
 	int i = 2, a1 = 0, a2 = 1, temp;
 	while (i <= n)
@@ -127,4 +126,41 @@ double fun(int n)
 		i++;
 	}
 	return s;
+}
+
+int count(int * list, int n, int x)
+{
+	int count = 0;
+	for (int i = 0; i < n; i++)
+		if (list[i] == x) count++;
+	return count;
+}
+
+void sort(int * list, int n)
+{
+	for (int i = 0; i < n - 1; i++)
+	{
+		for (int k = 0; k < n - i - 1; k++)
+		{
+			if (list[k] < list[k + 1])
+			{
+				int temp = list[k];
+				list[k] = list[k + 1];
+				list[k + 1] = temp;
+			}
+		}
+	}
+}
+
+void delchar(char *list, char c)
+{
+	int i = 0, k = 0;
+	char str[80], *q;
+	q = str;
+
+	while (list[i] != '\0')
+		if (list[i++] != c)
+			q[k++] = list[i - 1];
+	q[k] = '\0';
+	strcpy_s(list, 80, q);
 }

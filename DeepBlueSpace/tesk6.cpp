@@ -6,7 +6,7 @@ void tesk602()
 	double aver = 0;
 	int xh[100], sg[100];
 	char c = '1', d = '2';
-
+	getchar();
 	printf("输入一批（不超过100人）的学生的学号与身高:\n");
 	while (c != '\n')
 	{
@@ -38,7 +38,7 @@ void tesk602()
 	{
 		if (sg[i] > aver || sg[i] > 170)
 		{
-			printf("%d    %d\n", xh[i], sg[i]);
+			printf("%2d    %3d\n", xh[i], sg[i]);
 			count++;
 		}
 		i++;

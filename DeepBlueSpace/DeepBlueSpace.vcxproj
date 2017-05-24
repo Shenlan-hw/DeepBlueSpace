@@ -119,6 +119,7 @@
     <ClInclude Include="tesk4.h" />
     <ClInclude Include="tesk5.h" />
     <ClInclude Include="tesk6.h" />
+    <ClInclude Include="tesk8.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="function.cpp" />
@@ -129,6 +130,7 @@
     <ClCompile Include="tesk4.cpp" />
     <ClCompile Include="tesk5.cpp" />
     <ClCompile Include="tesk6.cpp" />
+    <ClCompile Include="tesk8.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

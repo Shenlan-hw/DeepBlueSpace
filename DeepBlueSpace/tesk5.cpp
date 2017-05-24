@@ -63,12 +63,12 @@ void tesk508()
 void tesk509()
 {
 	int  m, n;
-	int fib(int n);
+	int fibonacci(int n);
 	printf("输入两个正整数m和n(1<=m<=n<=10000)；");
 	scanf_s("%d%d", &m, &n);
 	printf("第%d项到第%d项的Fibonacci数是：\n", m, n);
 	while (m <= n) {
-		printf("%d  ", fib(m));
+		printf("%d  ", fibonacci(m));
 		m++;
 	}
 	putchar('\n');
